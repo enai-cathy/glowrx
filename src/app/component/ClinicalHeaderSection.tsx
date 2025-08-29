@@ -8,7 +8,7 @@ export default function ClinicalHeaderSection() {
       {/* Headline + rotating phrase */}
       <div className="mb-4">
        
-          <h1 className="text-5xl md:text-6xl font-bold leading-tight"
+          <h1 className="text-5xl md:text-4xl font-bold leading-tight"
           >
             Doctor-trusted Solutions,
             <br/>

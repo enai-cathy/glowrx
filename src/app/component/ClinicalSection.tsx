@@ -32,10 +32,14 @@ export default function ClinicalSection() {
       simple, clean, and effective.
     </p>
      {/* button */}
-    <button className="flex mt-6 mx-auto text-center rounded-full px-5 py-2 text-white bg-black hover:bg-[#a987a9] shadow-md hover:shadow-lg hover:shadow-[#C8A2C8]/40 transition">
-      Explore Products
-    </button>
-
+    <div className="flex justify-center">
+  <Link
+    href="#products"
+    className="whitespace-nowrap text-center mt-6 rounded-full px-5 py-2 text-white bg-black hover:bg-[#a987a9] shadow-md hover:shadow-lg hover:shadow-[#C8A2C8]/40 transition"
+  >
+    Explore Products
+  </Link>
+</div>
     <div className="relative w-full h-[700px] md:h-[800px] ">
         <img
           src="/images/doctor-2.png"
@@ -48,8 +52,8 @@ export default function ClinicalSection() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Card 1 — Inner Glow Daily */}
-    <Link
-            href="/products/inner-glow-daily"
+    <div
+      
             className="group relative rounded-2xl overflow-hidden h-full"
           >
   {/* soft gradient halo */}
@@ -58,7 +62,7 @@ export default function ClinicalSection() {
    
 
 
-</Link>
+</div>
 
 
         </div>

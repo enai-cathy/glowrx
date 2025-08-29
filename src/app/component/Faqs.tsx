@@ -34,7 +34,7 @@ export default function FAQAccordion() {
   };
 
   return (
-    <section className="max-w-2xl mx-auto p-4">
+    <section className="max-w-2xl mx-auto p-8">
       <h2 className="text-3xl font-semibold mb-6 text-gray-900 text-center">
         Frequently Asked Questions
       </h2>

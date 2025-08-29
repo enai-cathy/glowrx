@@ -10,28 +10,28 @@ const categories = [
     highlight: "Sleep",
     gradient: "from-pink-300 to-purple-400",
     image: "/images/sleep-product.png",
-    link: "/products/sleep",
+    link: "#products",
   },
   {
     title: "Clear Skin",
     highlight: "Skin",
     gradient: "from-pink-300 to-rose-400",
     image: "/images/clear-skin2.png",
-    link: "/products/skin",
+    link: "#products",
   },
   {
     title: "Inner Glow",
     highlight: "Glow",
     gradient: "from-amber-300 to-orange-400",
     image: "/images/sleep-product2.png",
-    link: "/products/glow",
+    link: "#products",
   },
   {
     title: "Calm Mind",
     highlight: "Mind",
     gradient: "from-teal-300 to-emerald-400",
     image: "/images/calm-mind.png",
-    link: "/products/mind",
+    link: "#products",
   },
 ];
 

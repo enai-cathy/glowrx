@@ -66,7 +66,7 @@ export default function InnerGlowCards() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Card 1 — Inner Glow Daily */}
     <Link
-            href="/products/inner-glow-daily"
+            href="#products"
             className="group relative rounded-2xl overflow-hidden h-full"
           >
   {/* soft gradient halo */}
@@ -126,7 +126,7 @@ export default function InnerGlowCards() {
 
           {/* Card 2 — Inner Glow Serum */}
          <Link
-  href="/products/inner-glow-serum"
+  href="#products"
   className="group relative rounded-2xl overflow-hidden h-full"
 >
   {/* soft gradient halo (cooler tint) */}

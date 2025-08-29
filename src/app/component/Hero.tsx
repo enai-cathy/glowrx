@@ -25,7 +25,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="flex flex-col items-center text-center px-6 md:px-16 py-18 bg-white">
+    <section className="flex flex-col items-center text-center px-6 md:px-16 py-10 bg-white">
       {/* Headline + rotating phrase */}
       <div className="mb-4">
         <AnimatePresence mode="wait">

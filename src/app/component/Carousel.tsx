@@ -3,7 +3,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-import { div, section } from "framer-motion/client";
+
 
 export default function GlowRXCarousels() {
   const blogPosts = [
@@ -40,15 +40,15 @@ export default function GlowRXCarousels() {
   ];
 
   const products = [
-    { id: 1, name: "Inner Glow", category: "Supplements" },
+    { id: 1, name: "Inner Glow", category: "Skin Care" },
     { id: 2, name: "Skin Shield", category: "SPF Care" },
     { id: 3, name: "Glow Balm", category: "Moisturizers" },
-    { id: 4, name: "Clear Tone", category: "Cleansers" },
-    { id: 5, name: "Radiant Mist", category: "Sprays" },
+    { id: 4, name: "Hair Elixir", category: "Hair Care" },
+    { id: 5, name: "Radiant Me", category: "Supplements" },
   ];
 
   return (
-    <section className="px-8 md:px-16 py-20 ">
+    <section id="products" className="px-8 md:px-16 py-20 ">
 
 <h1 className="flex justify-center text-center font-bold text-3xl ">Want to get a total </h1>
 <h1 className="flex justify-center text-center mt-2 text-[#B76E79] font-bold text-3xl "> Glow? </h1>
@@ -85,11 +85,11 @@ export default function GlowRXCarousels() {
         modules={[Autoplay]}
         autoplay={{ delay: 0, reverseDirection: true, disableOnInteraction: false }}
         loop
-        speed={8000} // control how slow or fast it glides
+        speed={10000} // control how slow or fast it glides
         freeMode={true}
         slidesPerView={2.5}
         spaceBetween={20}
-        className="w-full h-[200px]"
+        className="w-full h-[150px]"
       >
         {products.map((p) => (
           <SwiperSlide key={p.id}>
