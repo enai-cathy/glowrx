@@ -4,7 +4,7 @@
 export default function Trust() {
   return (
 
-      <section className="px-8 md:px-16 py-2 bg-[#FCE9EC]/50 text-center bg-cover bg-center">
+      <section className="px-8 md:px-16 py-2 bg-[#FCE9EC]/ text-center bg-cover bg-center">
         <h2 className="text-md font-semibold mb-2">
           Doctor-formulated. Backed by science. Loved by thousands.
         </h2>
