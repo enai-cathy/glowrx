@@ -74,6 +74,7 @@ export default function ProductCategories() {
                 width={60}
                 height={40}
                 className=""
+                priority
               />
               <ArrowRightCircleIcon className="ml-2 h-5 w-5 text-gray-900 group-hover:text-white transition-colors" />
             </div>
