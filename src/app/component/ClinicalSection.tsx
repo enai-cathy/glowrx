@@ -37,7 +37,7 @@ export default function ClinicalSection() {
         <img
           src="/images/doctor-2.png"
           alt="GlowRx Products"
-          className="w-full h-full object-cover rounded-3xl object-contain [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)] [-webkit-mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]"
+          className="w-full p-2 h-full object-cover rounded-3xl object-contain [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)] [-webkit-mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)]"
         />
         {/* Overlay for readability */}
         <div className="absolute inset-0 bg-gradient-to-t from-white/40 via-white/0 to-transparent rounded-3xl"></div>
