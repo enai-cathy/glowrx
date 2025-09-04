@@ -96,7 +96,7 @@ export default function GlowRXCarousels() {
         >
           {products.map((p) => (
             <SwiperSlide key={p.id} className="!w-[150px] sm:!w-[200px] md!w-[250px]">
-              <div className="h-full rounded-2xl p-6 flex flex-col justify-center items-center text-white font-semibold bg-pink-400 shadow-md">
+              <div className="h-full rounded-2xl p-6 flex flex-col justify-center items-center font-semibold bg-[#FCE9EC] shadow-md">
                 <h3 className="text-lg md:text-sm">{p.name}</h3>
                 <p className="text-sm md:text-xs opacity-80">{p.category}</p>
               </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import {ArrowRightCircleIcon} from "lucide-react";
 
@@ -38,12 +38,12 @@ const categories = [
 export default function ProductCategories() {
   return (
     <section className="w-full py-6 overflox-x-auto">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-2">
+      <div className="max-w-6xl mx-auto grid grid-cols-2 gap-1 overflow-x-auto">
         {categories.map((cat) => (
           <Link
             key={cat.title}
             href={cat.link}
-            className="group bg-[#FCE9EC] relative flex  rounded-2xl overflow-hidden p-4 flex flex-col items-center justify-center text-center transition-all duration-300 hover:scale-[1.02]"
+            className="group bg-[#FCE9EC] relative flex rounded-xl p-4 flex flex-col items-center justify-center text-center transition-all duration-300 hover:scale-[1.02]"
           >
             {/* Background gradient on hover */}
             <div
@@ -54,12 +54,12 @@ export default function ProductCategories() {
              
 
               {/* Title with highlighted word */}
-              <h3 className="text-xl font-semibold text-gray-900 group-hover:text-white transition-colors">
+              <h3 className="text-lg md:text-md font-semibold text-gray-700 group-hover:text-white transition-colors">
                 {cat.title.split(" ").map((word, i) =>
                   word === cat.highlight ? (
                     <span
                       key={i}
-                      className="group-hover:text-white text-transparent bg-clip-text bg-gradient-to-r from-gray-800 to-gray-600"
+                      className="group-hover:text-white text-transparent bg-clip-text bg-gradient-to-r from-gray-700 to-gray-600"
                     >
                       {word}{" "}
                     </span>
@@ -68,15 +68,15 @@ export default function ProductCategories() {
                   )
                 )}
               </h3>
-               <Image
+               {/* <Image
                 src={cat.image}
                 alt={cat.title}
                 width={60}
                 height={40}
                 className=""
                 priority
-              />
-              <ArrowRightCircleIcon className="ml-2 h-5 w-5 text-gray-900 group-hover:text-white transition-colors" />
+              /> */}
+              <ArrowRightCircleIcon className="ml-2 h-5 w-5 text-gray-700 group-hover:text-white transition-colors" />
             </div>
           </Link>
         ))}

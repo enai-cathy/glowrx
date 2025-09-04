@@ -95,7 +95,7 @@ export default function InnerGlowCards() {
       <span className="text-[#6B5B95]">Daily</span>
     </h3>
     {/* content */}
-    <p className="mt-2 px-2 md:px-4 text-[#FCE9EC] flex-grow">
+    <p className="mt-2 px-2 md:px-4 text-gray-200 flex-grow">
       A daily beauty-from-within blend designed
       <br/>
       to support natural radiance and overall wellness.

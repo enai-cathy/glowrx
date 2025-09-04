@@ -13,33 +13,26 @@ export default function ClinicalSection() {
 
   {/* Content */}
   <div className="relative z-10">
-
-   
       <div className="max-w-6xl mx-auto">
- <h2 className=" flex justify-center text-3xl text-center font-semibold mt-8">
-   
-      Prescribed by 
-   
-    </h2>
- <h2 className=" flex justify-center text-3xl text-center text-white font-semibold "> 
-    licensed providers
-    </h2>
- <p className="flex justify-center text-center mt-2 px-2 md:px-4 flex-grow">
-      A daily beauty-from-within blend designed
-      <br/>
-      to support natural radiance and overall wellness.
-      <br/>
-      simple, clean, and effective.
-    </p>
+          <h2 className=" flex justify-center text-3xl text-center font-semibold mt-8"> Prescribed by </h2>
+          <h2 className=" flex justify-center text-3xl text-center text-white font-semibold "> licensed providers </h2>
+          <p className="flex justify-center text-center mt-2 px-2 md:px-4 flex-grow">
+                A daily beauty-from-within blend designed
+                <br/>
+                to support natural radiance and overall wellness.
+                <br/>
+                simple, clean, and effective.
+              </p>
      {/* button */}
     <div className="flex justify-center">
-  <Link
-    href="#products"
-    className="whitespace-nowrap text-center mt-6 rounded-full px-5 py-2 text-white bg-black hover:bg-[#a987a9] shadow-md hover:shadow-lg hover:shadow-[#C8A2C8]/40 transition"
-  >
-    Explore Products
-  </Link>
-</div>
+      <Link
+        href="#products"
+        className="whitespace-nowrap text-center mt-2 rounded-full px-5 py-1 text-white bg-black hover:bg-[#a987a9] shadow-md hover:shadow-lg hover:shadow-[#C8A2C8]/40 transition"
+      >
+        Explore Products
+      </Link>
+    </div>
+
     <div className="relative w-full h-[700px] md:h-[800px] ">
         <img
           src="/images/doctor-2.png"
@@ -51,29 +44,19 @@ export default function ClinicalSection() {
        
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {/* Card 1 — Inner Glow Daily */}
-    <div
-      
-            className="group relative rounded-2xl overflow-hidden h-full"
-          >
-  {/* soft gradient halo */}
-  <div className="absolute -inset-[1px] rounded-3xl blur-[2px]" />
-
-   
-
-
-</div>
-
-
+          <div className="group relative rounded-2xl overflow-hidden h-full">
+              {/* soft gradient halo */}
+              <div className="absolute -inset-[1px] rounded-3xl blur-[2px]" />
+          </div>
         </div>
         <p className="text-xs text-white/30 m-6 leading-relaxed text-center">
-  *These statements have not been evaluated by the Food and Drug Administration. 
-  This product is not intended to diagnose, treat, cure, or prevent any disease. 
-  Results may vary from person to person. Always consult your healthcare provider 
-  before starting any new supplement.
-</p>
+          *These statements have not been evaluated by the Food and Drug Administration. 
+          This product is not intended to diagnose, treat, cure, or prevent any disease. 
+          Results may vary from person to person. Always consult your healthcare provider 
+          before starting any new supplement.
+        </p>
 
-      </div>
+        </div>
       </div>
     </section>
   );
