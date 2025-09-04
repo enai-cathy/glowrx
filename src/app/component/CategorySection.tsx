@@ -23,7 +23,7 @@ const categories = [
     title: "Inner Glow",
     highlight: "Glow",
     gradient: "from-amber-300 to-orange-400",
-    image: "/images/sleep-product2.png",
+    image: "/images/glow-1.png",
     link: "#products",
   },
   {
